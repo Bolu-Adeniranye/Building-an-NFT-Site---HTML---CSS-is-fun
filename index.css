@@ -4,22 +4,22 @@ html, body {
     color: #2b283a;
     margin: 0;
     padding: 0;
+    line-height: 23px;
 }
 
 /* Header styling */
 header {
     background-color: #5f29a3;
-    padding: 45px 0px;
+    padding: 45px 0;
 }
 
-/* Main header title styling */
+/* Header titles */
 header > h1 {
     color: whitesmoke;
     margin: 0;
     font-size: 36px;
 }
 
-/* Subheader styling */
 header > h3 {
     color: #d0aaff;
     font-size: 20px;
@@ -27,9 +27,9 @@ header > h3 {
 }
 
 /* Subheader in sections */
-h2 {
-    margin-top: 0;
+h2, .section-two {
     font-size: 24px;
+    margin-top: 0;
 }
 
 /* Link styling */
@@ -42,27 +42,38 @@ a:hover, a:focus {
 }
 
 /* Section padding */
-section {
+section, footer {
     padding: 45px 0;
 }
 
-/* Container styling for sections */
+/* Container styling */
 .container {
     width: 620px;
     margin: 0 auto;
 }
 
-/* Image styling for purple shoes */
-.purple-shoes {
+/* Image styling */
+.feature-image, .purple-shoes {
     width: 100%;
 }
 
-.section-two{
-    color: white;
-    background-color: #5f29a3;
+.feature-image {
+    border-radius: 4.6px;
 }
 
-.feature-image {
-    width: 300px;
-    border-radius: 4.6px;
+.section-two {
+    color: white;
+    background-color: #5f29a3;
+    font-size: inherit;
+}
+
+.section-two-image-container {
+    display: flex;
+    justify-content: start;
+}
+
+/* Footer styling */
+footer {
+    color: #5f29a3;
+    text-align: center;
 }
