@@ -1,0 +1,28 @@
+html, body, * {
+    font: normal 600 16px "Roboto", sans-serif;
+
+    color: #2b283a;
+
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #5f29a3;
+    padding: 45px 0px;
+  }
+ 
+ header > h1 {
+    color: whitesmoke;
+    margin: 0;
+    font-size: 36px;
+ }
+  
+  header > h3 {
+    color: #d0aaff;
+    font-size: 20px;
+    margin: 0;
+  }
+ 
+ 
+ 
