@@ -1,28 +1,68 @@
-html, body, * {
+/* Reset margin and padding for body and HTML */
+html, body {
     font: normal 600 16px "Roboto", sans-serif;
-
     color: #2b283a;
-
     margin: 0;
     padding: 0;
-  }
-  
-  header {
+}
+
+/* Header styling */
+header {
     background-color: #5f29a3;
     padding: 45px 0px;
-  }
- 
- header > h1 {
+}
+
+/* Main header title styling */
+header > h1 {
     color: whitesmoke;
     margin: 0;
     font-size: 36px;
- }
-  
-  header > h3 {
+}
+
+/* Subheader styling */
+header > h3 {
     color: #d0aaff;
     font-size: 20px;
     margin: 0;
-  }
- 
- 
- 
+}
+
+/* Subheader in sections */
+h2 {
+    margin-top: 0;
+    font-size: 24px;
+}
+
+/* Link styling */
+a:link {
+    color: #ef5839;
+}
+
+a:hover, a:focus {
+    color: #d4b44c;
+}
+
+/* Section padding */
+section {
+    padding: 45px 0;
+}
+
+/* Container styling for sections */
+.container {
+    width: 620px;
+    margin: 0 auto;
+}
+
+/* Image styling for purple shoes */
+.purple-shoes {
+    width: 100%;
+}
+
+.section-two{
+    color: white;
+    background-color: #5f29a3;
+}
+
+.feature-image {
+    width: 300px;
+    border-radius: 4.6px;
+}
