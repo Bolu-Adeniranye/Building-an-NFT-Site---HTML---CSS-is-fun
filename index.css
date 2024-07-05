@@ -33,7 +33,7 @@ h2, .section-two {
 }
 
 /* Link styling */
-a:link {
+p  a {
     color: #ef5839;
 }
 
@@ -76,4 +76,50 @@ section, footer {
 footer {
     color: #5f29a3;
     text-align: center;
+}
+
+.btn-base {
+    padding: 10px 19px;
+    border-radius: 4.6px;
+    font-weight: 500;
+    text-decoration: none;
+    display: inline-block;
+
+}
+
+.btn-dark {
+    background-color: #5f29a3;
+    color: whitesmoke;
+}
+
+.btn-mid {
+    background-color: #f0e0ff;
+    color: #5f29a3;
+}
+
+.btn-light {
+    background-color: whitesmoke;
+    color: #5f29a3;
+}
+
+.btn-dark.btn-base {
+    background-color: #5f29a3;
+    color: whitesmoke;
+}
+
+.btn-mid.btn-base {
+    background-color: #f0e0ff;
+    color: #5f29a3;
+}
+
+.btn-light.btn-base {
+    background-color: whitesmoke;
+    color: #5f29a3;
+}
+
+.btn-base:hover,
+.btn-base:active
+ {
+    background-color: #f3e885;
+    color: #2b238a;
 }
